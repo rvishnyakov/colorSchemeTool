@@ -1,7 +1,11 @@
 #!/bin/bash
 
-VSC_FILES=./vscThemes/*.json
+IJ_OUTDIR=./intellijThemes/
 TM_OUTDIR=./tmThemes/
+
+mkdir -p $IJ_OUTDIR
+
+VSC_FILES=./vscThemes/*.json
 
 shopt -s nullglob
 
@@ -15,9 +19,7 @@ do
 	node vscToTm.js "$FILE" "$TM_OUTDIR$BASE.tmTheme" >> ./colorSchemeTool.log
 done
 
-
 TM_FILES=./tmThemes/*.tmTheme
-IJ_OUTDIR=./intellijThemes/
 
 shopt -s nullglob
 
