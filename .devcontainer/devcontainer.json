@@ -1,3 +1,9 @@
+//
+// Dev Container file to convert TextMate/VS Code themes to IntelliJ color schemes
+// The resulting output will be stored in intellijThemes
+//
+// (c) JetBrains GmbH, 2025
+//
 {
   "name": "Color Scheme Tool",
   "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
