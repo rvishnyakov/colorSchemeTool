@@ -9,8 +9,11 @@
   "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
   "customizations": {
     "jetbrains": {
-      "backend": "PyCharm"
-    }
+      "backend": "PyCharm",
+      "plugins" : [
+        "izhangzhihao.rainbow.brackets"
+      ],
+    },
   },
   features: {
     "ghcr.io/devcontainers/features/node" : {},
