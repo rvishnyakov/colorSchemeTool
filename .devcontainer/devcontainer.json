@@ -13,6 +13,9 @@
       "plugins" : [
         "izhangzhihao.rainbow.brackets"
       ],
+      "settings" : {
+        "com.intellij:app:VcsApplicationSettings.create_changelists_automatically": true
+      }
     },
   },
   features: {
